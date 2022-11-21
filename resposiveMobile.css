@@ -1,0 +1,67 @@
+@media only screen and (max-width:420px){
+    #hero-section .container{
+        height: 90vh;
+    }
+    nav img {
+        width: 160px;
+    }
+    .left-content h1 {
+        font-size: 30px;
+        /* background-color: yellow; */
+        top: 30%;
+    }
+    .left-content p {
+        top: 40%;
+    }
+    span {
+        color: rgb(220, 20, 20);
+    }
+    .bn{
+        bottom: 30%;
+    }
+    /* ------about------ */
+    .introduction p{
+        line-height: 23px;
+    }
+    .btn3 a{
+        font-size: 14px;
+    }
+    .box{
+        width: 100%;
+        padding: 10px ;
+        background-color: rgb(44, 44, 45);
+        border: 0.3px solid rgba(255, 255, 255, 0.554);
+    }
+    /* ------------services-------- */
+    #services .container{
+        height: 168vh;
+    }
+    #services .heading h1{
+        letter-spacing: 2px;
+    }
+    #skills .container{
+        height: 82vh;
+    }
+    #skills  h1{
+        font-size: 18px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 39px;
+    }
+    .figma, .css{
+        display: flex;
+        justify-content: right;
+    }
+    /* -----hobbies---- */
+    .container-hobby{
+        height: 75vh;
+    }
+    .hobbies .fa-solid {
+        margin-right: 7px;
+    }
+    .google-form iframe{
+        height: 360px;
+    }
+}

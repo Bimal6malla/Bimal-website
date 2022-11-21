@@ -1,0 +1,286 @@
+@media only screen and (max-width:600px) {
+    
+    nav img {
+        width: 170px;
+    }
+    nav ul li a{
+        padding: 6px;
+        font-size: 14px;
+        margin-right: 10px;
+        color: white;
+        transition: 0.6s;
+    }
+    /* .btn{
+        display: none;
+    } */
+    #hero-section .container{
+        height: 95vh;
+    }
+    .left-content h1 {
+        font-size: 30px;
+        /* background-color: yellow; */
+        width: 100%;
+        position: absolute;
+        top: 30%;
+        z-index: 1;
+    }
+
+    .left-content p {
+        /* background-color: yellow; */
+        width: 80%;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 1px;
+        word-spacing: 3px;
+        margin: 17px 0 40px 0;
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+    }
+
+    span {
+        color: rgb(180, 220, 20);
+    }
+
+    .right-img img {
+        width: 330px;
+        animation: img 2.5s;
+    }
+
+    .right-img img {
+        opacity: 50%;
+    }
+
+    @keyframes img {
+        0% {
+            transform: scale(0);
+            opacity: 0;
+        }
+
+        100% {
+            transform: scale(1);
+            opacity: 0.5;
+        }
+    }
+    .bn{
+        position: absolute;
+        bottom: 18%;
+    }
+    /* -----------about------------ */
+
+    #about-section .container{
+        height: 100vh;
+    }
+    .top-data{
+        width: 100%;
+        flex-direction: column-reverse;
+        /* background-color: yellow; */
+        text-align: center;
+    }
+    .heading p{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+        letter-spacing: .4rem;
+    }
+    .top-data img{
+        width: 250px;
+    }
+    .introduction p{
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 10px;
+    }
+    .introduction .none{
+        display: none;
+    }
+
+    /* ------------sevices------------ */
+ 
+    #services .container{
+        height: 200vh;
+    }
+     .heading h1{
+        font-size: 22px;
+    }
+     .heading p{
+        font-size: 13px;
+    }
+    .sirv1{
+       flex-direction: column;
+       margin: 30px 0;
+       /* background-color: yellow; */
+       align-items: center;
+    }
+    .box{
+        width: 70%;
+        padding: 10px ;
+    }
+    .box h1{
+        color: white;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    .box p{
+        font-size: 14px;
+    }
+    .sirv2{
+        display: none;
+    }
+
+    /* -------------skills---------------- */
+    .circular-progress{
+        width: 150px;
+        height: 150px;
+    }
+    .circular-progress::before{
+        width: 120px;
+        height: 120px;
+    }
+    .circular-progress2{
+        width: 150px;
+        height: 150px;
+    }
+    .circular-progress2::before{
+        width: 120px;
+        height: 120px;
+    }
+    .circular-progress3{
+        width: 150px;
+        height: 150px;
+    }
+    .circular-progress3::before{
+        width: 120px;
+        height: 120px;
+    }
+    .circular-progress4{
+        width: 150px;
+        height: 150px;
+    }
+    .circular-progress4::before{
+        width: 120px;
+        height: 120px;
+    }
+    .skills{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 60px;
+    }
+    .figma, .css{
+        display: flex;
+        justify-content: right;
+    }
+
+    /* -------------hobby------------------------ */
+
+    .heading-hooby h1{
+        font-size: 23px;
+        letter-spacing: 7px;
+    }
+    .heading-hooby p{
+        font-size: 15px;
+    }
+    .fa-circle{
+        font-size: 15px;
+    }
+    .fa-code{
+        font-size: 18px;
+        color: crimson;
+    }
+    .bb{
+        font-size: 18px;
+    }
+    .hobbies{
+        width: 100%;
+    }
+
+    /* ------------contact-------------- */
+
+        #contact .container{
+            width: 100%;
+            height: 155vh;
+        }
+    .row{
+        flex-direction: column;
+        margin-top: 8%;
+    }
+    .contact-form{
+        margin: 25px 0 ;
+    }
+    .left h1{
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+    form{
+        grid-gap: 15px;
+    }
+    .google-form iframe{
+        height: 220px;
+    }
+    
+    /* -----------------footer----- */
+
+    .footer-container{
+       height: 90vh;
+       /* background-color: red; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    }
+    .data{
+        flex-direction: column;
+        
+        width: 100%;
+    }
+    .line{
+        height: 2px;
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .top{
+        position: absolute;
+        right: 10%;
+    }
+    .top i{
+        font-size: 15px;
+        width: 50px;
+        height: 50px;
+    }
+    .copy{
+        margin-top: 20px;
+    }
+
+    /* -----------menu------- */
+     #hero-section i{
+        color: white;
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 19px;
+        cursor: pointer;
+        font-size: 25px;
+        background-color: crimson;
+        padding: 3px 7px ;
+        border-radius: 50px;
+    }
+
+    .nav-list ul {
+        /* display: none; */
+        background-color: #0dff00;
+        position: fixed;
+        top: 0;
+        /* right: 0px; */
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        flex-direction: column;
+        text-align: center;
+        z-index: 3;
+        transition: 0.6s;
+    }
+
+    .nav-list ul li {
+        display: block;
+        padding-top: 25px;
+    }
+}
